@@ -6,8 +6,8 @@ import Link from 'next/link';
 const skills = [
   {
     num: '01',
-    title: 'Web Development',
-    description: "Create bespoke websites using modern frameworks and technologies, tailored to your brand and business needs.",
+    title: 'Software Development',
+    description: "Skilled Software Development Engineer (SDE) with expertise in full-stack development, scalable architectures, and performance optimization",
     href: ""
   },
   {
@@ -18,8 +18,8 @@ const skills = [
   },
   {
     num: '03',
-    title: 'AI-Driven Web Applications',
-    description: "Integrate artificial intelligence into web applications to enhance user experience, automate tasks, and provide personalized services.",
+    title: 'AI/ML Solutions',
+    description: "Expert in AI/ML, including Generative AI, NLP, computer vision, and model optimization for intelligent, scalable solutions.",
     href: ""
   },
   {
@@ -30,8 +30,14 @@ const skills = [
   },
   {
     num: '05',
-    title: 'SEO & Performance Optimization',
-    description: "Optimize your website for search engines and improve loading times to increase visibility, traffic, and user engagement.",
+    title: 'DevOps',
+    description: "Experienced in DevOps, CI/CD pipelines, Docker, Kubernetes, cloud automation, and infrastructure as code for seamless deployments.",
+    href: ""
+  },
+  {
+    num: '06',
+    title: 'SRE',
+    description: "Experienced Site Reliability Engineer (SRE) specializing in system scalability, incident response, observability, and automation for high availability",
     href: ""
   },
 ];
