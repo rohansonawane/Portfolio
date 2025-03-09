@@ -18,7 +18,7 @@ const Home = () => {
             
             <div className="flex flex-col xl:flex-row items-center gap-8">
               
-              <Link href="/assets/Rohan_Sooftware_Developer_Resume.pdf" target="_blank">
+              <Link href="/assets/Rohan_Sonawane_Resume_SDE.pdf" target="_blank">
               <Button download variant="outline" size="lg" className="uppercase flex items-center gap-2">
                 <span>Download Resume</span>
                 <FiDownload className="text-xl" />
