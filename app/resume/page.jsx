@@ -45,22 +45,22 @@ const experience = {
     },
     {
       company: "Self-Employed",
-      position: "Full Stack Web Developer",
+      position: "Full Stack SDE",
       duration: "2020-2023"
     },
     {
       company: "Briefkase",
-      position: "TechLead - Web Developer",
+      position: "TechLead - Full Stack SDE",
       duration: "2019-2020"
     },
     {
       company: "Briefkase",
-      position: "Senior - Web Developer",
+      position: "Senior - Full Stack SDE",
       duration: "2017-2019"
     },
     {
       company: "Briefkase",
-      position: "Junior - Web Developer",
+      position: "Junior - Full Stack SDE",
       duration: "2016-2017"
     },
   ]
@@ -69,16 +69,16 @@ const experience = {
 const education = {
   icon: '/assets/resume/cap.svg',
   title: "My Education",
-  description:"I am currently pursuing a Master of Science in Computer Science at California State University, Dominguez Hills. With a solid foundation in software engineering and over seven years of industry experience, I specialize in AI, web development, and innovative tech solutions. My academic journey and hands-on experience enable me to stay at the forefront of emerging technologies.", 
+  description: "I am currently pursuing a Master of Science in Computer Science at California State University, Dominguez Hills. With a solid foundation in software engineering and over seven years of industry experience, I specialize in AI, web development, and innovative tech solutions. My academic journey and hands-on experience enable me to stay at the forefront of emerging technologies.", 
   items:[
     {
       institution: "CSUDH",
-      degree: "Masters in CS",
+      degree: "Master's in Computer Science",
       duration: "2023-2025"
     },
     {
       institution: "PVPPCOE",
-      degree: "Bachelors in IT",
+      degree: "Bachelor's in Information Technology",
       duration: "2012-2016"
     } 
   ]
@@ -87,7 +87,7 @@ const education = {
 const skills = {
   icon: '/assets/resume/cap.svg',
   title: "My skills",
-  description:"Expert in Full Stack Development, AI, and Machine Learning, with proficiency in PHP, Python, JavaScript, and frameworks like Django. Skilled in cloud platforms (AWS) and digital marketing for comprehensive solutions.", 
+  description: "Expert in Full Stack Development, AI, and Machine Learning, with proficiency in PHP, Python, JavaScript, and frameworks like Django. Skilled in cloud platforms (AWS) and digital marketing for comprehensive solutions.", 
   skilllist:[
     {
       icon:<FaPython />,
