@@ -1,30 +1,43 @@
 "use client";
 
+import { useState } from "react";
 import { motion } from "framer-motion";
 import Image from "next/image";
 
 const Photo = () => {
+  const [isLoading, setIsLoading] = useState(true);
+
   return (
     <div className="w-full h-full relative">
       {/* Image */}
       <motion.div
         initial={{ opacity: 0 }}
-        animate={{ opacity: 1, transition: { delay: 2, duration: 0.4, ease: 'easeIn' } }}
+        animate={{ opacity: 1 }}
+        transition={{ delay: 2, duration: 0.4, ease: 'easeIn' }}
       >
         <motion.div
           initial={{ opacity: 0 }}
-          animate={{ opacity: 1, transition: { delay: 2.4, duration: 0.4, ease: 'easeInOut' } }}
-          className="w-[298px] h-[298px] xl:w-[498px] xl:h-[498px] mix-blend-lighten absolute"
+          animate={{ opacity: 1 }}
+          transition={{ delay: 2.4, duration: 0.4, ease: 'easeInOut' }}
+          className="w-[298px] h-[298px] xl:w-[498px] xl:h-[498px] absolute"
         >
           <Image
             src="/assets/Portfolio-picture.png"
             priority
-            quality={100}
+            quality={90}
             fill
             sizes="(max-width: 768px) 298px, (max-width: 1200px) 498px, 100vw"
-            alt="Rohan Sonawane Photo"
-            className="object-contain rounded-full"
+            alt="Rohan Sonawane - Full Stack Developer"
+            className={`object-contain rounded-full transition-opacity duration-300 ${
+              isLoading ? 'opacity-0' : 'opacity-100'
+            }`}
+            onLoad={() => setIsLoading(false)}
           />
+          {isLoading && (
+            <div className="absolute inset-0 flex items-center justify-center">
+              <div className="animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-accent"></div>
+            </div>
+          )}
         </motion.div>
         {/* Circle */}
         <motion.svg
@@ -32,6 +45,7 @@ const Photo = () => {
           fill="transparent"
           viewBox="0 0 506 506"
           xmlns="http://www.w3.org/2000/svg"
+          aria-hidden="true"
         >
           <motion.circle
             cx="253"
@@ -56,6 +70,6 @@ const Photo = () => {
       </motion.div>
     </div>
   );
-}
+};
 
 export default Photo;

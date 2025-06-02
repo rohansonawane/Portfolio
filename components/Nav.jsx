@@ -1,42 +1,41 @@
 "use client";
 
 import Link from "next/link";
-import {usePathname} from "next/navigation";
-
-const links = [
-   {
-      name: "home",
-      path: "/",
-   },
-   {
-      name: "skills",
-      path: "/skills",
-   },
-   {
-      name: "resume",
-      path: "/resume",
-   },
-   {
-      name: "work",
-      path: "/work",
-   },
-   {
-      name: "contact",
-      path: "/contact",
-   }
-];
+import { usePathname } from "next/navigation";
 
 const Nav = () => {
    const pathname = usePathname();
+
+   const navLinks = [
+      { href: "#home", label: "Home" },
+      { href: "#experience", label: "Work" },
+      { href: "#skills", label: "Skills" },
+      { href: "#projects", label: "Projects" },
+      { href: "#contact", label: "Contact" },
+   ];
+
    return (
-      <nav className="flex gap-8">
-         {links.map((link, index) => {
-            return (
-            <Link href={link.path} key={index} className={`${link.path === pathname && "text-accent border-b-2 border-accent"} capitalize font-medium hover:text-accent transition-all`}>
-               {link.name}
+      <nav className="flex items-center gap-8">
+         {navLinks.map((link) => (
+            <Link
+               key={link.href}
+               href={link.href}
+               className={`text-sm font-medium ${
+                  pathname === link.href
+                     ? "text-accent"
+                     : "text-white hover:text-accent"
+               }`}
+               onClick={(e) => {
+                  e.preventDefault();
+                  const element = document.getElementById(link.href.substring(1));
+                  if (element) {
+                     element.scrollIntoView({ behavior: "smooth" });
+                  }
+               }}
+            >
+               {link.label}
                </Link>
-            );
-         })}
+         ))}
       </nav>
    );
 };

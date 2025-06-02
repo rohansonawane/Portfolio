@@ -1,4 +1,6 @@
-import {animate, motion} from "framer-motion";
+"use client";
+
+import { motion } from "framer-motion";
 
 // variants
 const stairAnimation = {
@@ -22,14 +24,7 @@ const reverseIndex = (index) => {
 const Stairs = () => {
   return (
     <>
-      {/* Render 6 motion divs, each representing a step of the stairs.
-      Each div will have the same animation defined by the stairs animation object.
-      The delay for each div is calculated dynamically based on its reversed index,
-      creating a staggered effect with decreasing delay for each subsequent step. */}
-      {[...Array(6)].map((_, index) => {
-
-         return (
-
+      {[...Array(6)].map((_, index) => (
         <motion.div
           key={index}
           variants={stairAnimation}
@@ -43,10 +38,9 @@ const Stairs = () => {
           }}
           className="h-full w-full bg-accent relative"
         />
-         );
-         })}
+      ))}
     </>
   );
 };
 
-export default Stairs;
+export default Stairs; 
