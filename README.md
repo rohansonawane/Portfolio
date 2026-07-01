@@ -1,199 +1,239 @@
-# RohanVerse Portfolio
+<div align="center">
 
-[![Live Site](https://img.shields.io/badge/Live-rohanverse.dev-6c63ff?style=for-the-badge)](https://rohanverse.dev)
-[![React](https://img.shields.io/badge/React-18-61dafb?style=for-the-badge&logo=react&logoColor=white)](https://react.dev)
-[![Vite](https://img.shields.io/badge/Vite-6-646cff?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev)
-[![Three.js](https://img.shields.io/badge/Three.js-3D_Hero-000000?style=for-the-badge&logo=threedotjs&logoColor=white)](https://threejs.org)
-[![License](https://img.shields.io/badge/License-MIT-22c55e?style=for-the-badge)](./LICENSE)
+<img src="./docs/images/readme-hero.svg" alt="RohanVerse — Software Developer portfolio with 3D hero, blog, and Notebook Arcade" width="100%" />
+
+<br />
 
 <a href="https://www.youtube.com/watch?v=PLACEHOLDER" target="_blank" rel="noopener noreferrer">
   <img
     src="./docs/images/portfolio-preview.png"
-    alt="RohanVerse portfolio website preview — click to watch the walkthrough on YouTube"
+    alt="Watch the RohanVerse walkthrough on YouTube"
     width="100%"
+    style="border-radius:18px;border:1px solid rgba(190,206,255,0.13);"
   />
 </a>
 
-<p align="center">
-  <strong>Click the preview above to watch the full site walkthrough on YouTube</strong><br />
-  <em>Replace <code>PLACEHOLDER</code> in the README with your video ID when ready.</em>
-</p>
+<p><strong>▶ Click the preview to watch the site walkthrough on YouTube</strong><br/><sub>Replace <code>PLACEHOLDER</code> with your video ID when ready.</sub></p>
 
-<p align="center">
-  <a href="https://rohanverse.dev"><strong>Live Demo</strong></a>
-  ·
-  <a href="https://github.com/rohansonawane/Portfolio/issues">Report Bug</a>
-  ·
-  <a href="https://github.com/rohansonawane/Portfolio/issues">Request Feature</a>
-</p>
+[![Live Site](https://img.shields.io/badge/LIVE-rohanverse.dev-4f55ff?style=for-the-badge&logo=googlechrome&logoColor=white)](https://rohanverse.dev)
+[![React](https://img.shields.io/badge/React-18-4f55ff?style=for-the-badge&logo=react&logoColor=white)](https://react.dev)
+[![Vite](https://img.shields.io/badge/Vite-6-7d6bff?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev)
+[![Three.js](https://img.shields.io/badge/Three.js-3D_Hero-8a57ff?style=for-the-badge&logo=threedotjs&logoColor=white)](https://threejs.org)
+[![Arcade](https://img.shields.io/badge/Notebook_Arcade-12_Games-38c98c?style=for-the-badge&logo=gamejolt&logoColor=white)](https://rohanverse.dev/play)
+
+**[🚀 Enter RohanVerse](https://rohanverse.dev)** · **[🕹️ Play Arcade](https://rohanverse.dev/play)** · **[📚 Read Blog](https://rohanverse.dev/blog)** · **[🐛 Report Bug](https://github.com/rohansonawane/Portfolio/issues)**
+
+</div>
 
 ---
 
-## Overview
+## 🎮 Player Card
 
-**RohanVerse** is a production-ready personal portfolio built with **React**, **Vite**, and **Three.js**. It combines a cinematic 3D hero, detailed project case studies, a full **tech blog**, and an interactive **Notebook Arcade** with 12 browser games — all in one cohesive, performance-focused experience.
+<table>
+<tr>
+<td width="50%" valign="top">
 
-The previous Next.js portfolio is preserved in [`archive-portfolio/`](./archive-portfolio/) for reference.
+**Rohan Sonawane**  
+`Class:` Software Developer  
+`Realm:` Full Stack · AI/ML · VR/XR · Cloud  
+`Build:` React + Vite + Three.js  
+`Status:` 🟢 Online
 
-## Highlights
+</td>
+<td width="50%" valign="top">
 
-- **3D hero experience** powered by Three.js with optimized GLB assets
-- **8 project case studies** with rich feature breakdowns and tech stacks
-- **12-article tech blog** written in Markdown with TOC, reading progress, and share tools
-- **Notebook Arcade** with 12 playable games, AI/CPU modes, scores, and sound settings
-- **SEO-first architecture** with route prerendering, sitemap, robots.txt, and Open Graph meta
-- **Light / dark theme** with a glass-and-grid design system
-- **Fully responsive** layout from mobile to desktop
-- **Vercel-ready** deployment with explicit Vite build configuration
+| Stat | Value |
+|:--|--:|
+| 🗂️ Projects | **8** |
+| 📝 Blog Posts | **12** |
+| 🕹️ Arcade Games | **12** |
+| 🗺️ Prerendered Routes | **36+** |
+| 🌗 Theme Modes | **2** |
 
-## Tech Stack
+</td>
+</tr>
+</table>
 
-| Layer | Technologies |
-|-------|----------------|
-| **Frontend** | React 18, React Router 7 |
-| **Build** | Vite 6, code splitting, lazy routes |
-| **3D** | Three.js |
-| **Content** | react-markdown, remark-gfm |
-| **SEO** | react-helmet-async, custom prerender script |
-| **Styling** | Custom CSS design system |
-| **Deploy** | Vercel (SPA rewrites + static prerender) |
+---
 
-## Features
+## ⚡ Skill Tree
 
-### Portfolio Home
-- Animated hero with 3D scene
-- Skills grid with brand icons and contact pixel wall
-- Featured projects with category tags
-- Experience timeline and downloadable resume
+| Skill | Level | XP |
+|:--|:--|:--|
+| React / Router | `██████████` | **100** |
+| Vite / Build | `█████████░` | **92** |
+| Three.js / 3D | `████████░░` | **84** |
+| SEO / Prerender | `████████░░` | **86** |
+| Markdown Blog | `█████████░` | **90** |
+| Arcade Systems | `██████████` | **100** |
 
-### Project Pages (`/project/:slug`)
-- Deep-dive case studies for VR, AI, full-stack, and research work
-- Feature lists, tech stacks, timelines, and external links
+---
 
-### Tech Blog (`/blog`)
-- Markdown-driven posts with frontmatter
-- Sticky reading progress bar
-- Scroll-spy table of contents
-- Related articles sidebar and social share row
+## 🏆 Achievements Unlocked
 
-### Notebook Arcade (`/play`)
-- Tic Tac Toe, Sudoku, Snake, Dots & Boxes, SOS, Hangman, Sea Battle, Minesweeper, Drop Dots, Maze, Word Search, Book Cricket
-- Vs CPU and AI Assist modes on supported games
-- Local score persistence and arcade settings (sound, theme)
+| Badge | Achievement | How to earn |
+|:--:|:--|:--|
+| 🌌 | **Verse Explorer** | Open the 3D hero homepage |
+| 📁 | **Case Study Hunter** | Read a `/project/:slug` page |
+| 📖 | **Blog Grinder** | Finish a long-form tech article |
+| 🕹️ | **Arcade Regular** | Win a game in Notebook Arcade |
+| 🤖 | **AI Challenger** | Beat CPU mode in a strategy game |
+| 🔍 | **SEO Speedrun** | Deploy with prerender + sitemap |
 
-## Routes
+---
 
-| Path | Description |
-|------|-------------|
-| `/` | Portfolio home |
-| `/project/:slug` | Project case study |
-| `/blog` | Blog index |
-| `/blog/:slug` | Blog article |
-| `/play` | Arcade hub |
-| `/play/:gameId` | Individual game |
+## 🗺️ World Map
 
-## Getting Started
+| Zone | Route | What you get |
+|:--|:--|:--|
+| 🏠 **Home Base** | `/` | 3D hero, skills, projects, experience, contact |
+| 📁 **Project Vault** | `/project/:slug` | Deep-dive case studies |
+| 📚 **Tech Library** | `/blog` | 12 Markdown articles |
+| 📄 **Scroll Room** | `/blog/:slug` | TOC, reading progress, share row |
+| 🕹️ **Notebook Arcade** | `/play` | 12 pencil-and-paper games |
+| 🎯 **Game Arena** | `/play/:gameId` | Individual arcade titles |
 
-### Prerequisites
+---
 
-- **Node.js 18+**
-- **npm** (or yarn / pnpm)
+## 🕹️ Arcade Roster
 
-### Installation
+| Game | Mode | Difficulty |
+|:--|:--|:--|
+| Tic Tac Toe | 2P · Vs CPU | Easy → Unbeatable |
+| Sudoku | Solo · AI Assist | Easy → Hard |
+| Snake | Solo · AI Play | Speed tiers |
+| Dots & Boxes | 2P · Vs CPU | Easy → Hard |
+| SOS | 2P · Vs CPU | Line scoring + CPU |
+| Hangman | Solo · AI Assist | Word lengths |
+| Sea Battle | Vs CPU | Ship placement |
+| Minesweeper | Solo · AI Assist | Grid sizes |
+| Drop Dots | 2P · Vs CPU | Connect-four style |
+| Doodle Maze | Solo · AI Assist | Procedural mazes |
+| Word Search | Solo · AI Assist | 3 themes |
+| Book Cricket | 1P · 2P | Notebook classic |
+
+> Scores persist in `localStorage`. Sound + theme live in arcade settings.
+
+---
+
+## 📜 Quest Log
+
+### Quest 1 — Spawn Locally
 
 ```bash
 git clone https://github.com/rohansonawane/Portfolio.git
 cd Portfolio
 npm install
-```
-
-### Development
-
-```bash
 npm run dev
 ```
 
-Open [http://localhost:5173](http://localhost:5173).
+`Reward:` Local dev server at [http://localhost:5173](http://localhost:5173)
 
-### Production Build
+### Quest 2 — Build for Production
 
 ```bash
 npm run build
 npm run preview
 ```
 
-The build runs Vite and then `scripts/prerender.mjs`, which:
-- Writes static `index.html` per route for crawlers and social previews
-- Regenerates `sitemap.xml` and `robots.txt`
+`Reward:` `dist/` output + prerendered SEO routes + fresh `sitemap.xml`
 
-### Environment Variables
+### Quest 3 — Boss Fight: Deploy on Vercel
 
-| Variable | Purpose | Default |
-|----------|---------|---------|
-| `VITE_SITE_URL` | Canonical site URL for meta tags, sitemap, and robots | `https://rohanverse.dev` |
+| Setting | Value |
+|:--|:--|
+| Framework | **Vite** |
+| Build Command | `npm run build` |
+| Output Directory | `dist` |
+| Install Command | `npm install --include=dev` |
 
-Example:
+`Reward:` Live portfolio at your custom domain
+
+### Optional Buff — Canonical URL
 
 ```bash
 VITE_SITE_URL=https://yourdomain.com npm run build
 ```
 
-## Project Structure
+---
 
-```
-├── src/
-│   ├── pages/              # Route-level pages (lazy-loaded)
-│   ├── components/         # Layout, blog, arcade, SEO
-│   ├── content/blog/       # Markdown blog posts
-│   ├── arcade/             # Game logic and registry
-│   ├── lib/                # Projects data, blog manifest, init scripts
-│   ├── styles/             # Global and section CSS
-│   └── three/              # Three.js portfolio hero
-├── public/assets/          # Images, 3D model, blog banners, arcade art
-├── scripts/prerender.mjs   # Post-build SEO prerender
-├── docs/images/            # README and documentation assets
-├── archive-portfolio/      # Archived Next.js portfolio
-├── vercel.json             # Vercel deployment config
-└── vite.config.js
-```
+## 🧱 Loadout (Tech Stack)
 
-## Deployment (Vercel)
+<table>
+<tr>
+<td width="33%" valign="top">
 
-Recommended settings:
+**Frontend**  
+React 18  
+React Router 7  
+Custom CSS system  
+Light / dark theme
 
-| Setting | Value |
-|---------|-------|
-| Framework Preset | **Vite** |
-| Build Command | `npm run build` |
-| Output Directory | `dist` |
-| Install Command | `npm install --include=dev` |
+</td>
+<td width="33%" valign="top">
 
-`vercel.json` is already configured for SPA routing and production installs.
+**Experience**  
+Three.js hero  
+react-markdown blog  
+react-helmet-async SEO  
+Lazy-loaded arcade
 
-## Updating the README Screenshot & Video
+</td>
+<td width="33%" valign="top">
 
-1. Replace `docs/images/portfolio-preview.png` with a real screenshot of the live site.
-2. Update the YouTube link at the top of this README:
+**Pipeline**  
+Vite 6  
+Route prerender script  
+Sitemap + robots.txt  
+Vercel SPA rewrites
 
-```markdown
-<a href="https://www.youtube.com/watch?v=YOUR_VIDEO_ID">
-```
-
-## Archive
-
-The legacy Next.js portfolio (Tailwind, Framer Motion, App Router) lives in [`archive-portfolio/`](./archive-portfolio/). It is not part of the active deployment.
-
-## Author
-
-**Rohan Sonawane**
-
-- Portfolio: [rohanverse.dev](https://rohanverse.dev)
-- GitHub: [@rohansonawane](https://github.com/rohansonawane)
-- LinkedIn: [Rohan Sonawane](https://www.linkedin.com/in/rohansonawane)
-- Email: rohansonawane28@gmail.com
+</td>
+</tr>
+</table>
 
 ---
 
-<p align="center">
-  Built with React, Vite, and Three.js
-</p>
+## 📦 Inventory (Project Structure)
+
+```
+├── src/
+│   ├── pages/              # Route pages
+│   ├── components/         # Layout, blog, arcade, SEO
+│   ├── content/blog/       # Markdown posts
+│   ├── arcade/             # Game logic + registry
+│   ├── lib/                # Projects, blog manifest
+│   ├── styles/             # portfolio + arcade CSS
+│   └── three/              # 3D hero scene
+├── public/assets/          # Images, GLB model, blog art
+├── scripts/prerender.mjs   # Post-build SEO pass
+├── docs/images/            # README assets
+├── archive-portfolio/      # Legacy Next.js build
+└── vercel.json
+```
+
+---
+
+## 🗃️ Archive Zone
+
+The previous **Next.js 14** portfolio is preserved in [`archive-portfolio/`](./archive-portfolio/) — same universe, earlier build.
+
+---
+
+## 👤 Creator
+
+**Rohan Sonawane**
+
+[![Portfolio](https://img.shields.io/badge/Portfolio-rohanverse.dev-4f55ff?style=flat-square)](https://rohanverse.dev)
+[![GitHub](https://img.shields.io/badge/GitHub-rohansonawane-101733?style=flat-square&logo=github)](https://github.com/rohansonawane)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Rohan_Sonawane-0A66C2?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/rohansonawane)
+[![Email](https://img.shields.io/badge/Email-rohansonawane28@gmail.com-EA4335?style=flat-square&logo=gmail)](mailto:rohansonawane28@gmail.com)
+
+---
+
+<div align="center">
+
+<sub>Built with React · Vite · Three.js · and a lot of notebook nostalgia</sub>
+
+**Rohan<span style="color:#4f55ff">Verse</span>** — press start to explore.
+
+</div>
