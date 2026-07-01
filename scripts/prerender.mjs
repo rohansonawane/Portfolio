@@ -15,7 +15,7 @@ import { ARCADE_GAMES } from '../src/arcade/data.js';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const DIST = join(__dirname, '..', 'dist');
-const SITE = (process.env.VITE_SITE_URL || 'https://rohanverse.dev').replace(/\/$/, '');
+const SITE = (process.env.VITE_SITE_URL || 'https://www.rohansonawane.tech').replace(/\/$/, '');
 const DEFAULT_IMAGE = '/assets/social/og-image.jpg';
 const DEFAULT_IMAGE_ALT = 'RohanVerse — Rohan Sonawane | Software Developer Portfolio';
 

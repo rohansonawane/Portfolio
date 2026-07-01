@@ -6,13 +6,13 @@
   width="100%"
 />
 
-[![Live Site](https://img.shields.io/badge/LIVE-rohanverse.dev-4f55ff?style=for-the-badge&logo=googlechrome&logoColor=white)](https://rohanverse.dev)
+[![Live Site](https://img.shields.io/badge/LIVE-rohansonawane.tech-4f55ff?style=for-the-badge&logo=googlechrome&logoColor=white)](https://www.rohansonawane.tech)
 [![React](https://img.shields.io/badge/React-18-4f55ff?style=for-the-badge&logo=react&logoColor=white)](https://react.dev)
 [![Vite](https://img.shields.io/badge/Vite-6-7d6bff?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev)
 [![Three.js](https://img.shields.io/badge/Three.js-3D_Hero-8a57ff?style=for-the-badge&logo=threedotjs&logoColor=white)](https://threejs.org)
-[![Notebook Arcade](https://img.shields.io/badge/Notebook_Arcade-12_Games-38c98c?style=for-the-badge)](https://rohanverse.dev/play)
+[![Notebook Arcade](https://img.shields.io/badge/Notebook_Arcade-12_Games-38c98c?style=for-the-badge)](https://www.rohansonawane.tech/play)
 
-**[Live Demo](https://rohanverse.dev)** · **[Arcade](https://rohanverse.dev/play)** · **[Blog](https://rohanverse.dev/blog)** · **[Issues](https://github.com/rohansonawane/Portfolio/issues)**
+**[Live Demo](https://www.rohansonawane.tech)** · **[Arcade](https://www.rohansonawane.tech/play)** · **[Blog](https://www.rohansonawane.tech/blog)** · **[Issues](https://github.com/rohansonawane/Portfolio/issues)**
 
 </div>
 
@@ -189,7 +189,7 @@ This generates the `dist/` output and runs the prerender step for SEO-friendly r
 
 | Variable | Purpose | Default |
 |:--|:--|:--|
-| `VITE_SITE_URL` | Canonical domain for meta tags, sitemap, and robots | `https://rohanverse.dev` |
+| `VITE_SITE_URL` | Canonical domain for meta tags, sitemap, and robots | `https://www.rohansonawane.tech` |
 
 ```bash
 VITE_SITE_URL=https://yourdomain.com npm run build
@@ -228,7 +228,7 @@ The legacy **Next.js 14** portfolio remains available in [`archive-portfolio/`](
 **Rohan Sonawane**  
 Software Developer building intelligent, scalable, and immersive products across full-stack engineering, AI, and XR.
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-rohanverse.dev-4f55ff?style=flat-square)](https://rohanverse.dev)
+[![Portfolio](https://img.shields.io/badge/Portfolio-rohansonawane.tech-4f55ff?style=flat-square)](https://www.rohansonawane.tech)
 [![GitHub](https://img.shields.io/badge/GitHub-rohansonawane-101733?style=flat-square&logo=github)](https://github.com/rohansonawane)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Rohan_Sonawane-0A66C2?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/rohansonawane)
 [![Email](https://img.shields.io/badge/Email-rohansonawane28@gmail.com-EA4335?style=flat-square&logo=gmail)](mailto:rohansonawane28@gmail.com)
