@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rohan Sonawane | Resume</title>
+  <style>
+    :root { --text: #101733; --muted: #5a6478; --accent: #4f55ff; }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      color: var(--text);
+      background: #f7f9ff;
+      line-height: 1.55;
+    }
+    .page {
+      max-width: 820px;
+      margin: 0 auto;
+      padding: 40px 28px 56px;
+      background: #fff;
+      min-height: 100vh;
+    }
+    h1 { margin: 0 0 6px; font-size: 34px; letter-spacing: -.04em; font-weight: 700; }
+    .role { color: var(--accent); font-weight: 600; margin: 0 0 10px; }
+    .meta { color: var(--muted); font-size: 14px; margin-bottom: 28px; }
+    .meta a { color: var(--accent); text-decoration: none; }
+    h2 {
+      margin: 28px 0 10px;
+      font-size: 13px;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+      color: var(--muted);
+      border-bottom: 1px solid #e8ecf8;
+      padding-bottom: 6px;
+    }
+    p { margin: 0 0 12px; }
+    ul { margin: 0 0 12px; padding-left: 18px; }
+    li { margin-bottom: 6px; }
+    .job { margin-bottom: 18px; }
+    .job b { display: block; font-size: 16px; }
+    .job small { color: var(--muted); font-weight: 600; }
+    .tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 8px; }
+    .tag {
+      font-size: 11px;
+      font-weight: 700;
+      padding: 4px 8px;
+      border-radius: 999px;
+      background: rgba(79,85,255,.1);
+      color: var(--accent);
+    }
+    .print-hint {
+      margin-top: 32px;
+      padding: 14px 16px;
+      border-radius: 12px;
+      background: #f3f5ff;
+      color: var(--muted);
+      font-size: 13px;
+    }
+    @media print {
+      body { background: #fff; }
+      .page { padding: 0; max-width: none; }
+      .print-hint { display: none; }
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <h1>Rohan Sonawane</h1>
+    <p class="role">Software Developer · Full Stack · AI/ML · VR/XR · Cloud</p>
+    <p class="meta">
+      <a href="mailto:rohanbsonawane@gmail.com">rohanbsonawane@gmail.com</a> ·
+      <a href="https://github.com/RohanBSonawane">github.com/RohanBSonawane</a> ·
+      <a href="https://www.linkedin.com/in/rohanbsonawane">linkedin.com/in/rohanbsonawane</a>
+    </p>
+
+    <p>I build intelligent, scalable and immersive digital experiences that solve real world problems across web platforms, AI systems, and VR/XR products.</p>
+
+    <h2>Experience</h2>
+    <div class="job">
+      <b>AI/VR Research Assistant & SDE II</b>
+      <small>CSU Dominguez Hills · 2023 – Present</small>
+      <p>Research and engineering across immersive VR classrooms, LLM-powered NPC teachers, and production software systems.</p>
+    </div>
+    <div class="job">
+      <b>Freelance Software Developer</b>
+      <small>Multiple Clients · 2020 – 2023</small>
+      <p>Delivered full-stack web applications, AI integrations, and client-facing product features.</p>
+    </div>
+    <div class="job">
+      <b>Software Developer → Tech Lead</b>
+      <small>Briefkase Digital Communications · 2016 – 2020</small>
+      <p>Led full-stack development initiatives from junior engineer through technical lead responsibilities.</p>
+    </div>
+    <div class="job">
+      <b>Computer Science Expert</b>
+      <small>Mercor Contract · 2025</small>
+    </div>
+
+    <h2>Featured Projects</h2>
+    <ul>
+      <li><b>VR Classroom</b>: Multiplayer VR classroom with AI avatar, whiteboard, and experiments.</li>
+      <li><b>AI Canvas Lab</b>: AI-powered interactive canvas with math tools, AI panel, and export.</li>
+      <li><b>Legal Doc AI Assistant</b>: OCR, RAG, citations, and semantic search for legal documents.</li>
+    </ul>
+
+    <h2>Skills</h2>
+    <div class="tags">
+      <span class="tag">React</span><span class="tag">Next.js</span><span class="tag">TypeScript</span>
+      <span class="tag">Node.js</span><span class="tag">Python</span><span class="tag">FastAPI</span>
+      <span class="tag">AWS</span><span class="tag">Docker</span><span class="tag">Kubernetes</span>
+      <span class="tag">PostgreSQL</span><span class="tag">MongoDB</span><span class="tag">Redis</span>
+      <span class="tag">Unity</span><span class="tag">Three.js</span><span class="tag">RAG / LLMs</span>
+      <span class="tag">GraphQL</span><span class="tag">Tailwind</span><span class="tag">Vite</span>
+    </div>
+
+    <h2>Education</h2>
+    <div class="job">
+      <b>M.S. Computer Science</b>
+      <small>California State University, Dominguez Hills</small>
+    </div>
+    <div class="job">
+      <b>B.Tech Information Technology</b>
+      <small>University of Mumbai</small>
+    </div>
+
+    <p class="print-hint">Tip: Use your browser’s Print dialog (Cmd/Ctrl + P) and choose “Save as PDF” to export this resume.</p>
+  </main>
+</body>
+</html>

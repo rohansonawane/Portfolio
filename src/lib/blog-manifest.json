@@ -1,0 +1,326 @@
+[
+  {
+    "title": "AI Agents in 2026: The Practical Stack That Actually Ships",
+    "slug": "ai-agents-practical-stack-2026",
+    "category": "AI Agents",
+    "read_time": "10 min read",
+    "meta_description": "A practical guide to AI agents in 2026, including tools, memory, MCP, A2A, evaluation, guardrails, and real-world architecture.",
+    "audience": "Developers, founders, and product builders who want to build useful AI agents without chasing hype.",
+    "banner_image": "01-ai-agents-practical-stack-2026-banner.png",
+    "diagram_image": "01-ai-agents-practical-stack-2026-diagram.png",
+    "banner_prompt": "16:9 professional hero image of an AI agent control room with tool connections, memory graph, APIs, browser automation, code editor, and calm dark tech aesthetic. No text.",
+    "source_basis": [
+      {
+        "name": "OpenAI agent tools and Responses API",
+        "url": "https://openai.com/index/new-tools-for-building-agents/"
+      },
+      {
+        "name": "OpenAI migration to Responses API",
+        "url": "https://developers.openai.com/api/docs/guides/migrate-to-responses"
+      },
+      {
+        "name": "OpenAI Assistants API migration notice",
+        "url": "https://developers.openai.com/api/docs/assistants/migration"
+      },
+      {
+        "name": "Anthropic Model Context Protocol",
+        "url": "https://www.anthropic.com/news/model-context-protocol"
+      },
+      {
+        "name": "Google Agent2Agent protocol docs",
+        "url": "https://docs.cloud.google.com/gemini/enterprise/docs/register-and-manage-an-a2a-agent"
+      }
+    ]
+  },
+  {
+    "title": "DSA Patterns Every Developer Should Actually Master",
+    "slug": "dsa-patterns-every-developer-should-master",
+    "category": "Data Structures and Algorithms",
+    "read_time": "12 min read",
+    "meta_description": "A beginner-friendly but complete guide to the most important DSA patterns: two pointers, sliding window, hashing, BFS, DFS, heaps, DP, and more.",
+    "audience": "Students, interview candidates, and developers who want to solve DSA problems by pattern instead of memorizing solutions.",
+    "banner_image": "02-dsa-patterns-every-developer-should-master-banner.png",
+    "diagram_image": "02-dsa-patterns-every-developer-should-master-diagram.png",
+    "banner_prompt": "16:9 clean educational technology illustration showing algorithm patterns as connected pathways, arrays, trees, graphs, and sliding windows on a modern desk. No text.",
+    "source_basis": [
+      {
+        "name": "OpenDSA DSA materials",
+        "url": "https://opendsa-server.cs.vt.edu/ODSA/Books/Everything/html/"
+      },
+      {
+        "name": "NIST DADS algorithms and data structures",
+        "url": "https://xlinux.nist.gov/dads/termsArea.html"
+      }
+    ]
+  },
+  {
+    "title": "Modern Data Structures Explained Through Real Projects",
+    "slug": "modern-data-structures-real-projects",
+    "category": "Computer Science Foundations",
+    "read_time": "11 min read",
+    "meta_description": "A practical guide to arrays, linked lists, stacks, queues, hash maps, trees, heaps, graphs, tries, and when to use each one in real projects.",
+    "audience": "Developers who want to understand data structures beyond interview definitions.",
+    "banner_image": "03-modern-data-structures-real-projects-banner.png",
+    "diagram_image": "03-modern-data-structures-real-projects-diagram.png",
+    "banner_prompt": "16:9 modern illustration of software data structures as physical building blocks: arrays, maps, trees, graphs, queues, stacks, and heaps in a developer workspace. No text.",
+    "source_basis": [
+      {
+        "name": "OpenDSA DSA materials",
+        "url": "https://opendsa-server.cs.vt.edu/ODSA/Books/Everything/html/"
+      },
+      {
+        "name": "NIST DADS algorithms and data structures",
+        "url": "https://xlinux.nist.gov/dads/termsArea.html"
+      }
+    ]
+  },
+  {
+    "title": "How AI Is Changing VR Development",
+    "slug": "ai-in-vr-development",
+    "category": "AI and XR",
+    "read_time": "10 min read",
+    "meta_description": "Explore how AI is transforming VR development through NPCs, procedural worlds, on-device inference, accessibility, analytics, and adaptive learning.",
+    "audience": "Unity, Unreal, VR, AR, MR, and educational technology developers.",
+    "banner_image": "04-ai-in-vr-development-banner.png",
+    "diagram_image": "04-ai-in-vr-development-diagram.png",
+    "banner_prompt": "16:9 cinematic VR classroom and development lab with AI holograms, Unity editor panels, avatars, hand tracking, neural network overlays, and educational simulation environment. No text.",
+    "source_basis": [
+      {
+        "name": "Unity Inference Engine/Sentis manual",
+        "url": "https://docs.unity3d.com/6000.6/Documentation/Manual/com.unity.ai.inference.html"
+      },
+      {
+        "name": "Unity ML-Agents Toolkit",
+        "url": "https://unity-technologies.github.io/ml-agents/"
+      },
+      {
+        "name": "Meta Movement SDK overview",
+        "url": "https://developers.meta.com/horizon/documentation/unity/move-overview/"
+      }
+    ]
+  },
+  {
+    "title": "My Modern AI Developer Setup: Cursor, Claude, ChatGPT, Copilot, and Automation",
+    "slug": "modern-ai-developer-setup",
+    "category": "Developer Productivity",
+    "read_time": "9 min read",
+    "meta_description": "A professional developer setup using Cursor, Claude, ChatGPT, GitHub Copilot, terminals, docs, automation, code review, and safety practices.",
+    "audience": "Developers who want a practical AI-assisted workflow without losing code quality.",
+    "banner_image": "05-modern-ai-developer-setup-banner.png",
+    "diagram_image": "05-modern-ai-developer-setup-diagram.png",
+    "banner_prompt": "16:9 polished developer desk setup with code editor, AI assistant panels, terminal automation, GitHub pull request flow, notes, and calm productivity aesthetic. No text.",
+    "source_basis": [
+      {
+        "name": "Claude Code overview",
+        "url": "https://docs.anthropic.com/en/docs/claude-code/overview"
+      },
+      {
+        "name": "Claude Code hooks guide",
+        "url": "https://docs.anthropic.com/en/docs/claude-code/hooks-guide"
+      },
+      {
+        "name": "GitHub Copilot coding agent",
+        "url": "https://docs.github.com/copilot/concepts/agents/cloud-agent/about-cloud-agent"
+      },
+      {
+        "name": "n8n documentation",
+        "url": "https://docs.n8n.io/"
+      }
+    ]
+  },
+  {
+    "title": "Cloud Trends That Matter in 2026",
+    "slug": "cloud-trends-that-matter-2026",
+    "category": "Cloud Engineering",
+    "read_time": "10 min read",
+    "meta_description": "A practical guide to 2026 cloud trends: Kubernetes for AI, serverless GPUs, platform engineering, FinOps, edge AI, and developer platforms.",
+    "audience": "Full-stack, backend, DevOps, platform, and AI engineers tracking cloud infrastructure trends.",
+    "banner_image": "06-cloud-trends-that-matter-2026-banner.png",
+    "diagram_image": "06-cloud-trends-that-matter-2026-diagram.png",
+    "banner_prompt": "16:9 cloud infrastructure landscape with Kubernetes clusters, GPU nodes, edge locations, serverless functions, cost dashboards, and AI workloads. Professional dark-tech style. No text.",
+    "source_basis": [
+      {
+        "name": "CNCF cloud native survey",
+        "url": "https://www.cncf.io/announcements/2026/01/20/kubernetes-established-as-the-de-facto-operating-system-for-ai-as-production-use-hits-82-in-2025-cncf-annual-cloud-native-survey/"
+      },
+      {
+        "name": "Kubernetes Dynamic Resource Allocation",
+        "url": "https://kubernetes.io/docs/concepts/scheduling-eviction/dynamic-resource-allocation/"
+      },
+      {
+        "name": "KServe documentation",
+        "url": "https://kserve.github.io/website/docs/intro"
+      },
+      {
+        "name": "Cloudflare Workers AI",
+        "url": "https://developers.cloudflare.com/workers-ai/"
+      },
+      {
+        "name": "FinOps Framework 2025",
+        "url": "https://www.finops.org/insights/2025-finops-framework/"
+      }
+    ]
+  },
+  {
+    "title": "Database Trends That Matter in 2026",
+    "slug": "database-trends-that-matter-2026",
+    "category": "Databases",
+    "read_time": "11 min read",
+    "meta_description": "A practical guide to database trends in 2026: vector search, serverless Postgres, branching, lakehouse tables, distributed SQL, and hybrid analytics.",
+    "audience": "Backend, full-stack, data, and AI engineers choosing databases for modern applications.",
+    "banner_image": "07-database-trends-that-matter-2026-banner.png",
+    "diagram_image": "07-database-trends-that-matter-2026-diagram.png",
+    "banner_prompt": "16:9 professional database architecture illustration with vector search, Postgres, branching timelines, lakehouse tables, distributed nodes, and analytics dashboard. No text.",
+    "source_basis": [
+      {
+        "name": "pgvector project",
+        "url": "https://github.com/pgvector/pgvector"
+      },
+      {
+        "name": "Neon serverless Postgres",
+        "url": "https://neon.com/docs/introduction/serverless"
+      },
+      {
+        "name": "Neon branching",
+        "url": "https://neon.com/docs/introduction/branching"
+      },
+      {
+        "name": "Apache Iceberg spec",
+        "url": "https://iceberg.apache.org/spec/"
+      },
+      {
+        "name": "Apache Iceberg docs",
+        "url": "https://iceberg.apache.org/docs/latest/"
+      },
+      {
+        "name": "CockroachDB follower reads",
+        "url": "https://www.cockroachlabs.com/docs/stable/follower-reads"
+      },
+      {
+        "name": "MotherDuck hybrid execution",
+        "url": "https://motherduck.com/docs/concepts/architecture-and-capabilities/"
+      }
+    ]
+  },
+  {
+    "title": "Automate Your Workflow Without Creating a Mess",
+    "slug": "automate-your-workflow-without-creating-a-mess",
+    "category": "Automation",
+    "read_time": "9 min read",
+    "meta_description": "A practical guide to workflow automation using scripts, GitHub Actions, n8n, AI agents, checklists, and human approvals.",
+    "audience": "Developers, students, solo builders, and teams who want to automate repetitive work safely.",
+    "banner_image": "08-automate-your-workflow-without-creating-a-mess-banner.png",
+    "diagram_image": "08-automate-your-workflow-without-creating-a-mess-diagram.png",
+    "banner_prompt": "16:9 clean automation workspace showing workflows, connected apps, GitHub Actions, scripts, email, calendar, AI agent, and approval gates. No text.",
+    "source_basis": [
+      {
+        "name": "n8n documentation",
+        "url": "https://docs.n8n.io/"
+      },
+      {
+        "name": "n8n AI agent node",
+        "url": "https://docs.n8n.io/integrations/builtin/cluster-nodes/root-nodes/n8n-nodes-langchain.agent"
+      },
+      {
+        "name": "Claude Code hooks guide",
+        "url": "https://docs.anthropic.com/en/docs/claude-code/hooks-guide"
+      },
+      {
+        "name": "GitHub Copilot coding agent",
+        "url": "https://docs.github.com/copilot/concepts/agents/cloud-agent/about-cloud-agent"
+      }
+    ]
+  },
+  {
+    "title": "Building RAG Apps That People Can Trust",
+    "slug": "building-rag-apps-that-people-can-trust",
+    "category": "AI Engineering",
+    "read_time": "10 min read",
+    "meta_description": "A practical guide to building trustworthy RAG apps with chunking, embeddings, retrieval, citations, evaluation, and guardrails.",
+    "audience": "Developers building AI assistants over documents, databases, codebases, or internal knowledge.",
+    "banner_image": "09-building-rag-apps-that-people-can-trust-banner.png",
+    "diagram_image": "09-building-rag-apps-that-people-can-trust-diagram.png",
+    "banner_prompt": "16:9 professional AI search system with documents flowing into embeddings, vector database, retrieval pipeline, citations, and verified answer panel. No text.",
+    "source_basis": [
+      {
+        "name": "pgvector project",
+        "url": "https://github.com/pgvector/pgvector"
+      },
+      {
+        "name": "OpenAI agent tools and Responses API",
+        "url": "https://openai.com/index/new-tools-for-building-agents/"
+      }
+    ]
+  },
+  {
+    "title": "System Design for AI-Native Applications",
+    "slug": "system-design-for-ai-native-applications",
+    "category": "System Design",
+    "read_time": "11 min read",
+    "meta_description": "Learn the architecture patterns behind AI-native apps: model routing, queues, retrieval, evaluation, caching, observability, and human approval.",
+    "audience": "Developers designing SaaS products, internal tools, assistants, and automation platforms with AI features.",
+    "banner_image": "10-system-design-for-ai-native-applications-banner.png",
+    "diagram_image": "10-system-design-for-ai-native-applications-diagram.png",
+    "banner_prompt": "16:9 software architecture diagram style image showing AI-native app layers: API, queues, model router, tools, retrieval, cache, observability, and human approval. No text.",
+    "source_basis": [
+      {
+        "name": "OpenAI agent tools and Responses API",
+        "url": "https://openai.com/index/new-tools-for-building-agents/"
+      },
+      {
+        "name": "pgvector project",
+        "url": "https://github.com/pgvector/pgvector"
+      },
+      {
+        "name": "Cloudflare Workers AI",
+        "url": "https://developers.cloudflare.com/workers-ai/"
+      },
+      {
+        "name": "FinOps Framework 2025",
+        "url": "https://www.finops.org/insights/2025-finops-framework/"
+      }
+    ]
+  },
+  {
+    "title": "Platform Engineering for Solo Developers and Small Teams",
+    "slug": "platform-engineering-for-small-teams",
+    "category": "Engineering Workflow",
+    "read_time": "8 min read",
+    "meta_description": "A practical guide to lightweight platform engineering: templates, CI/CD, environments, secrets, observability, docs, and deployment standards for small teams.",
+    "audience": "Solo builders, startups, students, and small engineering teams who want professional workflows without enterprise overhead.",
+    "banner_image": "11-platform-engineering-for-small-teams-banner.png",
+    "diagram_image": "11-platform-engineering-for-small-teams-diagram.png",
+    "banner_prompt": "16:9 minimal platform engineering scene with small team dashboard, golden path templates, CI/CD pipeline, cloud deployment, secrets, logs, and docs. No text.",
+    "source_basis": [
+      {
+        "name": "CNCF cloud native survey",
+        "url": "https://www.cncf.io/announcements/2026/01/20/kubernetes-established-as-the-de-facto-operating-system-for-ai-as-production-use-hits-82-in-2025-cncf-annual-cloud-native-survey/"
+      },
+      {
+        "name": "FinOps Framework 2025",
+        "url": "https://www.finops.org/insights/2025-finops-framework/"
+      }
+    ]
+  },
+  {
+    "title": "Web Performance in the AI Era",
+    "slug": "web-performance-in-the-ai-era",
+    "category": "Frontend Engineering",
+    "read_time": "9 min read",
+    "meta_description": "A practical guide to web performance for AI-era apps: Core Web Vitals, streaming, lazy loading, edge rendering, caching, and AI feature cost.",
+    "audience": "Frontend and full-stack developers building modern websites with AI features, dashboards, and rich interactions.",
+    "banner_image": "12-web-performance-in-the-ai-era-banner.png",
+    "diagram_image": "12-web-performance-in-the-ai-era-diagram.png",
+    "banner_prompt": "16:9 high-performance web app dashboard with speed gauges, streaming UI, edge nodes, cache layers, frontend components, and AI assistant panel. No text.",
+    "source_basis": [
+      {
+        "name": "Cloudflare Workers AI",
+        "url": "https://developers.cloudflare.com/workers-ai/"
+      },
+      {
+        "name": "OpenAI agent tools and Responses API",
+        "url": "https://openai.com/index/new-tools-for-building-agents/"
+      }
+    ]
+  }
+]

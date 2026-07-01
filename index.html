@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <script>
+    try {
+      var t = localStorage.getItem('rv-theme');
+      if (t === 'dark' || t === 'light') document.documentElement.setAttribute('data-theme', t);
+    } catch (e) {}
+  </script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#4f55ff" />
+  <meta name="description" content="Portfolio of Rohan Sonawane, Software Developer building intelligent, scalable and immersive experiences across Full Stack, AI/ML, VR/XR, and Cloud. Plus a Notebook Arcade of playable browser games." />
+  <meta name="author" content="Rohan Sonawane" />
+  <meta property="og:site_name" content="RohanVerse" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="RohanVerse | Rohan Sonawane" />
+  <meta property="og:description" content="Software Developer building intelligent, scalable and immersive experiences. Explore projects and play the Notebook Arcade." />
+  <meta property="og:image" content="/assets/notebook-arcade/images/logo.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link rel="icon" href="/assets/notebook-arcade/images/logo.png" />
+  <link rel="apple-touch-icon" href="/assets/notebook-arcade/images/logo.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <title>RohanVerse | Rohan Sonawane | Software Developer</title>
+</head>
+<body>
+  <div id="root"></div>
+  <script type="module" src="/src/main.jsx"></script>
+</body>
+</html>
