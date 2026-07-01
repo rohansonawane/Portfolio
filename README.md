@@ -1,11 +1,18 @@
 <div align="center">
 
-<img
-  src="./docs/images/github-feature.jpg"
-  alt="RohanVerse — Rohan Sonawane Software Developer portfolio with 3D hero, projects, blog, and Notebook Arcade"
-  width="100%"
-/>
+<a href="https://www.youtube.com/watch?v=xYWdkYVP4X4" target="_blank" rel="noopener noreferrer">
+  <img
+    src="./docs/images/github-feature.jpg"
+    alt="RohanVerse — Rohan Sonawane Software Developer portfolio with 3D hero, projects, blog, and Notebook Arcade"
+    width="100%"
+  />
+</a>
 
+<p>
+  <strong>▶ <a href="https://www.youtube.com/watch?v=xYWdkYVP4X4">Watch the portfolio walkthrough on YouTube</a></strong>
+</p>
+
+[![Watch Demo](https://img.shields.io/badge/YouTube-Watch_Demo-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=xYWdkYVP4X4)
 [![Live Site](https://img.shields.io/badge/LIVE-rohansonawane.tech-4f55ff?style=for-the-badge&logo=googlechrome&logoColor=white)](https://www.rohansonawane.tech)
 [![React](https://img.shields.io/badge/React-18-4f55ff?style=for-the-badge&logo=react&logoColor=white)](https://react.dev)
 [![Vite](https://img.shields.io/badge/Vite-6-7d6bff?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev)
