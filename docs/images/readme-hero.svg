@@ -34,5 +34,5 @@
   <text x="302" y="210" fill="#c8e0ff" font-family="Inter,Segoe UI,sans-serif" font-size="12" font-weight="700" text-anchor="middle">VR/XR</text>
   <rect x="350" y="190" width="72" height="30" rx="15" fill="rgba(56,201,140,0.14)" stroke="rgba(56,201,140,0.32)" stroke-width="1"/>
   <text x="386" y="210" fill="#c8ffe8" font-family="Inter,Segoe UI,sans-serif" font-size="12" font-weight="700" text-anchor="middle">CLOUD</text>
-  <text x="78" y="248" fill="#66708d" font-family="Inter,Segoe UI,sans-serif" font-size="14">Level up your dev portfolio. Press Start below.</text>
+  <text x="78" y="248" fill="#66708d" font-family="Inter,Segoe UI,sans-serif" font-size="14">A modern portfolio for engineering depth, technical writing, and interactive craft.</text>
 </svg>
