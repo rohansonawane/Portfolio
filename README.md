@@ -1,19 +1,10 @@
 <div align="center">
 
-<img src="./docs/images/readme-hero.svg" alt="RohanVerse — Software Developer portfolio with 3D hero, blog, and Notebook Arcade" width="100%" />
-
-<br />
-
-<a href="https://www.youtube.com/watch?v=PLACEHOLDER" target="_blank" rel="noopener noreferrer">
-  <img
-    src="./docs/images/portfolio-preview.png"
-    alt="Watch the RohanVerse portfolio walkthrough on YouTube"
-    width="100%"
-    style="border-radius:18px;border:1px solid rgba(190,206,255,0.13);"
-  />
-</a>
-
-<p><strong>Watch the full walkthrough on YouTube</strong><br/><sub>Update the link above with your video ID when the demo is published.</sub></p>
+<img
+  src="./docs/images/github-feature.jpg"
+  alt="RohanVerse — Rohan Sonawane Software Developer portfolio with 3D hero, projects, blog, and Notebook Arcade"
+  width="100%"
+/>
 
 [![Live Site](https://img.shields.io/badge/LIVE-rohanverse.dev-4f55ff?style=for-the-badge&logo=googlechrome&logoColor=white)](https://rohanverse.dev)
 [![React](https://img.shields.io/badge/React-18-4f55ff?style=for-the-badge&logo=react&logoColor=white)](https://react.dev)

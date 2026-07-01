@@ -16,7 +16,8 @@ import { ARCADE_GAMES } from '../src/arcade/data.js';
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const DIST = join(__dirname, '..', 'dist');
 const SITE = (process.env.VITE_SITE_URL || 'https://rohanverse.dev').replace(/\/$/, '');
-const DEFAULT_IMAGE = '/assets/notebook-arcade/images/logo.png';
+const DEFAULT_IMAGE = '/assets/social/og-image.jpg';
+const DEFAULT_IMAGE_ALT = 'RohanVerse — Rohan Sonawane | Software Developer Portfolio';
 
 const escapeAttr = (s = '') =>
   String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
@@ -32,9 +33,11 @@ function buildHtml(template, { title, description, path, image }) {
     .replace(/(<meta name="description" content=")[\s\S]*?(")/, `$1${desc}$2`)
     .replace(/(<meta property="og:title" content=")[\s\S]*?(")/, `$1${t}$2`)
     .replace(/(<meta property="og:description" content=")[\s\S]*?(")/, `$1${desc}$2`)
-    .replace(/(<meta property="og:image" content=")[\s\S]*?(")/, `$1${escapeAttr(abs(image))}$2`);
+    .replace(/(<meta property="og:image" content=")[\s\S]*?(")/, `$1${escapeAttr(abs(image))}$2`)
+    .replace(/(<meta property="og:image:secure_url" content=")[\s\S]*?(")/, `$1${escapeAttr(abs(image))}$2`)
+    .replace(/(<meta name="twitter:image" content=")[\s\S]*?(")/, `$1${escapeAttr(abs(image))}$2`);
   // Canonical + og:url are route-specific; inject before </head>.
-  const inject = `  <link rel="canonical" href="${escapeAttr(url)}" />\n  <meta property="og:url" content="${escapeAttr(url)}" />\n`;
+  const inject = `  <link rel="canonical" href="${escapeAttr(url)}" />\n  <meta property="og:url" content="${escapeAttr(url)}" />\n  <meta property="og:image:alt" content="${escapeAttr(DEFAULT_IMAGE_ALT)}" />\n  <meta name="twitter:image:alt" content="${escapeAttr(DEFAULT_IMAGE_ALT)}" />\n`;
   html = html.replace('</head>', `${inject}</head>`);
   return html;
 }
